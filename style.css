@@ -1,0 +1,357 @@
+body {
+    background-image: url(background-collage.png);
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    padding: 20px;
+    font-size: 45px;
+    font-family: Fantasy, Papyrus;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 50px;
+    font-size: 30px;
+    font-family: Monospace, "Monaco";
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: rgb(177, 142, 28);
+}
+
+
+
+#index {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#index a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+    font-size: 25px;
+    transition: color 0.3s ease; /* Add transition for smooth color change */
+}
+
+#index a:hover {
+    color: rgb(238, 230, 81); /* Change color on hover */
+}
+
+.newyork1 {
+    width: 30%;
+    margin-left: 20px;
+    filter: grayscale(100%);
+    border: 15px solid #cacaca;
+}
+
+.newyork2 {
+    width: 30%;
+    margin-left: 900px;
+    margin-top: 50px;
+    filter: grayscale(100%);
+    border: 15px solid #cacaca;
+}
+
+.newyork3 {
+    width: 30%;
+    margin-left: 20px;
+    filter: grayscale(100%);
+    border: 15px solid #cacaca;
+}
+.piscataway1 {
+    width: 30%;
+    margin-left: 900px;
+    margin-top: 50px;
+    filter: grayscale(100%);
+    border: 15px solid #cacaca;
+}
+.piscataway2 {
+    width: 30%;
+    margin-left: 20px;
+    filter: grayscale(100%);
+    border: 15px solid #cacaca;
+}
+.piscataway3 {
+    width: 30%;
+    margin-left: 900px;
+    margin-top: 50px;
+    filter: grayscale(100%);
+    border: 15px solid #cacaca;
+}
+.denver1 {
+    width: 30%;
+    margin-left: 20px;
+    filter: grayscale(100%);
+    border: 15px solid #cacaca;
+}
+.denver2 {
+    width: 30%;
+    margin-left: 900px;
+    margin-top: 50px;
+    filter: grayscale(100%);
+    border: 15px solid #cacaca;
+}
+.denver3 {
+    width: 30%;
+    margin-left: 20px;
+    filter: grayscale(100%);
+    border: 15px solid #cacaca;
+}
+.secaucus1 {
+    width: 30%;
+    margin-left: 900px;
+    margin-top: 50px;
+    filter: grayscale(100%);
+    border: 15px solid #cacaca;
+}
+.secaucus2 {
+    width: 30%;
+    margin-left: 20px;
+    filter: grayscale(100%);
+    border: 15px solid #cacaca;
+}
+.secaucus3 {
+    width: 30%;
+    margin-left: 900px;
+    margin-top: 50px;
+    filter: grayscale(100%);
+    border: 15px solid #cacaca;
+}
+.image-description {
+    display: none;
+    position: absolute;
+    color: white;
+    width: 40%; /* Adjust the width to your preference */
+    padding: 10px;
+    left: 60%; /* Adjust the left position to create a gap between image and text */
+    transform: translateX(-50%);
+    top: 500px;
+    bottom: 0px;
+    text-align: center;
+    z-index: 1;
+    margin-left: 10px; /* Adjust margin as needed */
+    margin-right: 10px; /* Adjust margin as needed */
+}
+
+.image-description2 {
+    display: none;
+    position: absolute;
+    color: white;
+    width: 50%;
+    left: 30%;
+    padding: 10px;
+    transform: translateX(-50%);
+    bottom: 0px;
+    top: 1200px;
+    text-align: center;
+    z-index: 1;
+    margin-right: 800px;
+}
+
+.image-description3 {
+    display: none;
+    position: absolute;
+    color: white;
+    width: 50%;
+    padding: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 0px;
+    top: 2000px;
+    text-align: center;
+    z-index: 1;
+    margin-left: 200px;
+    margin-right: 300px;
+}
+
+.image-description4 {
+    display: none;
+    position: absolute;
+    color: white;
+    width: 50%;
+    left: 30%;
+    padding: 10px;
+    transform: translateX(-50%);
+    bottom: 0px;
+    top: 2800px;
+    text-align: center;
+    z-index: 1;
+    margin-right: 800px;
+}
+
+.image-description5 {
+    display: none;
+    position: absolute;
+    color: white;
+    width: 50%;
+    padding: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 0px;
+    top: 3600px;
+    text-align: center;
+    z-index: 1;
+    margin-left: 200px;
+    margin-right: 300px;
+}
+
+.image-description6 {
+    display: none;
+    position: absolute;
+    color: white;
+    width: 50%;
+    left: 30%;
+    padding: 10px;
+    transform: translateX(-50%);
+    bottom: 0px;
+    top: 4400px;
+    text-align: center;
+    z-index: 1;
+    margin-right: 800px;
+}
+
+.image-description7 {
+    display: none;
+    position: absolute;
+    color: white;
+    width: 50%;
+    padding: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 0px;
+    top: 5150px;
+    text-align: center;
+    z-index: 1;
+    margin-left: 200px;
+    margin-right: 300px;
+}
+
+.image-description8 {
+    display: none;
+    position: absolute;
+    color: white;
+    width: 50%;
+    left: 30%;
+    padding: 10px;
+    transform: translateX(-50%);
+    bottom: 0px;
+    top: 5850px;
+    text-align: center;
+    z-index: 1;
+    margin-right: 800px;
+}
+
+.image-description9 {
+    display: none;
+    position: absolute;
+    color: white;
+    width: 50%;
+    padding: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 0px;
+    top: 6600px;
+    text-align: center;
+    z-index: 1;
+    margin-left: 200px;
+    margin-right: 300px;
+}
+
+.image-description10 {
+    display: none;
+    position: absolute;
+    color: white;
+    width: 50%;
+    left: 30%;
+    padding: 10px;
+    transform: translateX(-50%);
+    bottom: 0px;
+    top: 7350px;
+    text-align: center;
+    z-index: 1;
+    margin-right: 800px;
+}
+
+.image-description11 {
+    display: none;
+    position: absolute;
+    color: white;
+    width: 50%;
+    padding: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 0px;
+    top: 8000px;
+    text-align: center;
+    z-index: 1;
+    margin-left: 200px;
+    margin-right: 300px;
+}
+
+.image-description12 {
+    display: none;
+    position: absolute;
+    color: white;
+    width: 50%;
+    left: 30%;
+    padding: 10px;
+    transform: translateX(-50%);
+    bottom: 0px;
+    top: 8450px;
+    text-align: center;
+    z-index: 1;
+    margin-right: 800px;
+}
+
+.newyork1:hover + .image-description {
+    display: block;
+}
+
+.newyork2:hover + .image-description2 {
+    display: block;
+}
+
+.newyork3:hover + .image-description3 {
+    display: block;
+}
+
+.piscataway1:hover + .image-description4 {
+    display: block;
+}
+
+.piscataway2:hover + .image-description5 {
+    display: block;
+}
+
+.piscataway3:hover + .image-description6 {
+    display: block;
+}
+
+.denver1:hover + .image-description7 {
+    display: block;
+}
+
+.denver2:hover + .image-description8 {
+    display: block;
+}
+
+.denver3:hover + .image-description9 {
+    display: block;
+}
+
+.secaucus1:hover + .image-description10 {
+    display: block;
+}
+
+.secaucus2:hover + .image-description11 {
+    display: block;
+}
+
+.secaucus3:hover + .image-description12 {
+    display: block;
+}
+
+
